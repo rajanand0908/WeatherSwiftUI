@@ -13,6 +13,7 @@ struct HomeView: View {
       BackgroundView(topColor: .blue, bottomColor: .white)
       VStack {
         CityTextView(cityName: "Pune, India")
+        WeatherView(imageName: "cloud.sun.fill", temprature: 20)
         Spacer()
       }
     }
