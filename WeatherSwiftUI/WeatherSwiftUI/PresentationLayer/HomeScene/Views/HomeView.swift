@@ -11,6 +11,10 @@ struct HomeView: View {
   var body: some View {
     ZStack {
       BackgroundView(topColor: .blue, bottomColor: .white)
+      VStack {
+        CityTextView(cityName: "Pune, India")
+        Spacer()
+      }
     }
   }
 }

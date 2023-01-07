@@ -12,6 +12,7 @@
 		BE6C20BE2969C0910097BE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6C20BD2969C0910097BE0F /* Preview Assets.xcassets */; };
 		BE6C20E72969C3E50097BE0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20E62969C3E50097BE0F /* HomeView.swift */; };
 		BE6C20E92969C5BC0097BE0F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20E82969C5BC0097BE0F /* BackgroundView.swift */; };
+		BE6C20EB2969C87E0097BE0F /* CityTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20EA2969C87E0097BE0F /* CityTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BE6C20CD2969C0920097BE0F /* WeatherSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6C20E62969C3E50097BE0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BE6C20E82969C5BC0097BE0F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BE6C20EA2969C87E0097BE0F /* CityTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			children = (
 				BE6C20E62969C3E50097BE0F /* HomeView.swift */,
 				BE6C20E82969C5BC0097BE0F /* BackgroundView.swift */,
+				BE6C20EA2969C87E0097BE0F /* CityTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6C20E92969C5BC0097BE0F /* BackgroundView.swift in Sources */,
+				BE6C20EB2969C87E0097BE0F /* CityTextView.swift in Sources */,
 				BE6C20B72969C08E0097BE0F /* WeatherSwiftUIApp.swift in Sources */,
 				BE6C20E72969C3E50097BE0F /* HomeView.swift in Sources */,
 			);
