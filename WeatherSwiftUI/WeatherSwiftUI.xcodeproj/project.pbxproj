@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BE6C20B72969C08E0097BE0F /* WeatherSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20B62969C08E0097BE0F /* WeatherSwiftUIApp.swift */; };
-		BE6C20B92969C08E0097BE0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20B82969C08E0097BE0F /* ContentView.swift */; };
 		BE6C20BB2969C0910097BE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6C20BA2969C0910097BE0F /* Assets.xcassets */; };
 		BE6C20BE2969C0910097BE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6C20BD2969C0910097BE0F /* Preview Assets.xcassets */; };
+		BE6C20E72969C3E50097BE0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20E62969C3E50097BE0F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,11 @@
 /* Begin PBXFileReference section */
 		BE6C20B32969C08E0097BE0F /* WeatherSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6C20B62969C08E0097BE0F /* WeatherSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSwiftUIApp.swift; sourceTree = "<group>"; };
-		BE6C20B82969C08E0097BE0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE6C20BA2969C0910097BE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6C20BD2969C0910097BE0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE6C20C32969C0920097BE0F /* WeatherSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6C20CD2969C0920097BE0F /* WeatherSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6C20E62969C3E50097BE0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		BE6C20B52969C08E0097BE0F /* WeatherSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				BE6C20B62969C08E0097BE0F /* WeatherSwiftUIApp.swift */,
-				BE6C20B82969C08E0097BE0F /* ContentView.swift */,
+				BE6C20E22969C3500097BE0F /* App */,
+				BE6C20E32969C3750097BE0F /* PresentationLayer */,
 				BE6C20BA2969C0910097BE0F /* Assets.xcassets */,
 				BE6C20BC2969C0910097BE0F /* Preview Content */,
 			);
@@ -100,6 +100,38 @@
 				BE6C20BD2969C0910097BE0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE6C20E22969C3500097BE0F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C20B62969C08E0097BE0F /* WeatherSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BE6C20E32969C3750097BE0F /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C20E42969C3C30097BE0F /* HomeScene */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		BE6C20E42969C3C30097BE0F /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C20E52969C3D30097BE0F /* Views */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		BE6C20E52969C3D30097BE0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C20E62969C3E50097BE0F /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6C20B92969C08E0097BE0F /* ContentView.swift in Sources */,
 				BE6C20B72969C08E0097BE0F /* WeatherSwiftUIApp.swift in Sources */,
+				BE6C20E72969C3E50097BE0F /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
