@@ -10,7 +10,8 @@ import SwiftUI
 struct HomeView: View {
   var body: some View {
     ZStack {
-      BackgroundView(topColor: .blue, bottomColor: .white)
+      BackgroundView(topColor: .blue,
+                     bottomColor: Color("LightBlue"))
       VStack {
         CityTextView(cityName: "Pune, India")
         WeatherView(imageName: "cloud.sun.fill", temprature: 20)
