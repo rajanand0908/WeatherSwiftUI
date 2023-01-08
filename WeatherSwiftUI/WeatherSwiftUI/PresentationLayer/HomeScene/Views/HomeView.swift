@@ -31,6 +31,9 @@ struct HomeView: View {
           WeatherDayView(dayOfWeek: "SAT",
                          imageName: "snowflake",
                          temperature: 12)
+          WeatherDayView(dayOfWeek: "SUN",
+                         imageName: "cloud.sun.fill",
+                         temperature: 17)
         }
         Spacer()
         
