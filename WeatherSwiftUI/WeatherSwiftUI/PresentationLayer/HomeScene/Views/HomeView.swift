@@ -32,6 +32,16 @@ struct HomeView: View {
                          temperature: 12)
         }
         Spacer()
+        
+        Button {
+          print("Button Tapped")
+        } label: {
+          WeatherButton(title: "Change Day Time",
+                        textColor: .blue,
+                        backgroundColor: .white)
+        }
+        
+        Spacer()
       }
     }
   }

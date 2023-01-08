@@ -15,6 +15,7 @@
 		BE6C20EB2969C87E0097BE0F /* CityTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20EA2969C87E0097BE0F /* CityTextView.swift */; };
 		BE6C20ED2969CAEE0097BE0F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20EC2969CAEE0097BE0F /* WeatherView.swift */; };
 		BE6C20EF2969CCFB0097BE0F /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20EE2969CCFB0097BE0F /* WeatherDayView.swift */; };
+		BE6C20F1296B18CB0097BE0F /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C20F0296B18CB0097BE0F /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BE6C20EA2969C87E0097BE0F /* CityTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTextView.swift; sourceTree = "<group>"; };
 		BE6C20EC2969CAEE0097BE0F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		BE6C20EE2969CCFB0097BE0F /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
+		BE6C20F0296B18CB0097BE0F /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				BE6C20EA2969C87E0097BE0F /* CityTextView.swift */,
 				BE6C20EC2969CAEE0097BE0F /* WeatherView.swift */,
 				BE6C20EE2969CCFB0097BE0F /* WeatherDayView.swift */,
+				BE6C20F0296B18CB0097BE0F /* WeatherButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6C20ED2969CAEE0097BE0F /* WeatherView.swift in Sources */,
+				BE6C20F1296B18CB0097BE0F /* WeatherButton.swift in Sources */,
 				BE6C20E92969C5BC0097BE0F /* BackgroundView.swift in Sources */,
 				BE6C20EF2969CCFB0097BE0F /* WeatherDayView.swift in Sources */,
 				BE6C20EB2969C87E0097BE0F /* CityTextView.swift in Sources */,
