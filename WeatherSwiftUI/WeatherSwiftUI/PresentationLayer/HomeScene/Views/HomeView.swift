@@ -13,8 +13,7 @@ struct HomeView: View {
   
   var body: some View {
     ZStack {
-      BackgroundView(topColor: isNight ? .black : .blue,
-                     bottomColor: isNight ? .gray : Color("LightBlue"))
+      BackgroundView(isNight: $isNight)
       VStack {
         CityTextView(cityName: "Pune, India")
         WeatherView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temprature: 20)
