@@ -18,24 +18,12 @@ struct HomeView: View {
         CityTextView(cityName: "Pune, India")
         WeatherView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temprature: 20)
         HStack(spacing: 25) {
-          WeatherDayView(dayOfWeek: "TUE",
-                         imageName: "cloud.sun.fill",
-                         temperature: 22)
-          WeatherDayView(dayOfWeek: "WED",
-                         imageName: "sun.max.fill",
-                         temperature: 25)
-          WeatherDayView(dayOfWeek: "THUR",
-                         imageName: "cloud.sun.rain.fill",
-                         temperature: 19)
-          WeatherDayView(dayOfWeek: "FRI",
-                         imageName: "cloud.sun.bolt.fill",
-                         temperature: 18)
-          WeatherDayView(dayOfWeek: "SAT",
-                         imageName: "snowflake",
-                         temperature: 12)
-          WeatherDayView(dayOfWeek: "SUN",
-                         imageName: "cloud.sun.fill",
-                         temperature: 17)
+          ForEach(Weather.allCases, id: \.self) {
+            WeatherDayView(
+              dayOfWeek: $0.dayName,
+              imageName: $0.imageName,
+              temperature: $0.temprature)
+          }
         }
         Spacer()
         
